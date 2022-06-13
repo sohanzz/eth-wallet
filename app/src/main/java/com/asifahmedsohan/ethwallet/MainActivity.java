@@ -86,6 +86,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     .setPositiveButton(getString(R.string.close), (dialog, which) -> dialog.dismiss()).show();
 
             btnCheckBalance.setEnabled(false);
+            btnTransactions.setEnabled(false);
+            btnNonce.setEnabled(false);
         }
     }
 
